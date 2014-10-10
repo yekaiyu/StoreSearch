@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7224C2919E7AD4D00AB445D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7224C2719E7AD4D00AB445D /* DetailViewController.m */; };
+		E7224C2A19E7AD4D00AB445D /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7224C2819E7AD4D00AB445D /* DetailViewController.xib */; };
 		E724037B19E683A50054CFEF /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E724037919E683A50054CFEF /* LoadingCell.xib */; };
 		E7D83A3519D1861800F087A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83A3419D1861800F087A9 /* main.m */; };
 		E7D83A3819D1861800F087A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83A3719D1861800F087A9 /* AppDelegate.m */; };
@@ -73,6 +75,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E7224C2619E7AD4D00AB445D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E7224C2719E7AD4D00AB445D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E7224C2819E7AD4D00AB445D /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		E724037919E683A50054CFEF /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadingCell.xib; path = "../../../../../Desktop/iOS 2/The iOS Apprentice Bundle/Chapter 4 - StoreSearch/Resources/Photoshop/LoadingCell.xib"; sourceTree = "<group>"; };
 		E7D83A2F19D1861800F087A9 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D83A3319D1861800F087A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -204,6 +209,9 @@
 				E7D83B7C19D2BAB900F087A9 /* SearchResultCellTableViewCell.m */,
 				E7D83B7E19DA82D900F087A9 /* NothingFoundCell.h */,
 				E7D83B7F19DA82D900F087A9 /* NothingFoundCell.m */,
+				E7224C2619E7AD4D00AB445D /* DetailViewController.h */,
+				E7224C2719E7AD4D00AB445D /* DetailViewController.m */,
+				E7224C2819E7AD4D00AB445D /* DetailViewController.xib */,
 				E7D83B8019DA82D900F087A9 /* NothingFoundCell.xib */,
 				E7D83AA819D270BF00F087A9 /* SearchUIViewController.xib */,
 				E7D83B1419D2A7A500F087A9 /* SearchResultCell.xib */,
@@ -425,6 +433,7 @@
 				E7D83B6819D2B72D00F087A9 /* CloseButton@2x.png in Resources */,
 				E7D83B6019D2B72D00F087A9 /* Icon-Small.png in Resources */,
 				E7D83B1519D2A7A500F087A9 /* SearchResultCell.xib in Resources */,
+				E7224C2A19E7AD4D00AB445D /* DetailViewController.xib in Resources */,
 				E7D83B7619D2B72D00F087A9 /* Default-Landscape@2x~ipad.png in Resources */,
 				E7D83B6219D2B72D00F087A9 /* Icon.png in Resources */,
 				E7D83B6F19D2B72D00F087A9 /* Placeholder@2x.png in Resources */,
@@ -475,6 +484,7 @@
 			files = (
 				E7D83B8119DA82D900F087A9 /* NothingFoundCell.m in Sources */,
 				E7D83B5519D2B72D00F087A9 /* AFImageRequestOperation.m in Sources */,
+				E7224C2919E7AD4D00AB445D /* DetailViewController.m in Sources */,
 				E7D83B5319D2B72D00F087A9 /* AFHTTPRequestOperation.m in Sources */,
 				E7D83B7D19D2BAB900F087A9 /* SearchResultCellTableViewCell.m in Sources */,
 				E7D83B5219D2B72D00F087A9 /* AFHTTPClient.m in Sources */,
