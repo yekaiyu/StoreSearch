@@ -16,15 +16,15 @@
 		E7D83AAA19D270BF00F087A9 /* SearchUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7D83AA819D270BF00F087A9 /* SearchUIViewController.xib */; };
 		E7D83AAD19D2888400F087A9 /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83AAC19D2888400F087A9 /* SearchResult.m */; };
 		E7D83B1519D2A7A500F087A9 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7D83B1419D2A7A500F087A9 /* SearchResultCell.xib */; };
-		E7D83B5219D2B72D00F087A9 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B1919D2B72D00F087A9 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E7D83B5219D2B72D00F087A9 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B1919D2B72D00F087A9 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-unused"; }; };
 		E7D83B5319D2B72D00F087A9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B1B19D2B72D00F087A9 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E7D83B5419D2B72D00F087A9 /* AFImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B1D19D2B72D00F087A9 /* AFImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E7D83B5519D2B72D00F087A9 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B1F19D2B72D00F087A9 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E7D83B5619D2B72D00F087A9 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B2119D2B72D00F087A9 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E7D83B5619D2B72D00F087A9 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B2119D2B72D00F087A9 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-unused"; }; };
 		E7D83B5719D2B72D00F087A9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B2419D2B72D00F087A9 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E7D83B5819D2B72D00F087A9 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B2719D2B72D00F087A9 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E7D83B5919D2B72D00F087A9 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B2919D2B72D00F087A9 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E7D83B5A19D2B72D00F087A9 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B2B19D2B72D00F087A9 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E7D83B5A19D2B72D00F087A9 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B2B19D2B72D00F087A9 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-unused"; }; };
 		E7D83B5B19D2B72D00F087A9 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B2D19D2B72D00F087A9 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E7D83B5C19D2B72D00F087A9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D83B2F19D2B72D00F087A9 /* Icon-72.png */; };
 		E7D83B5D19D2B72D00F087A9 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D83B3019D2B72D00F087A9 /* Icon-72@2x.png */; };
@@ -596,6 +596,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
 		};
@@ -608,6 +609,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wall";
 			};
 			name = Release;
 		};

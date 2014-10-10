@@ -363,7 +363,7 @@ static NSString *const LoadingCellIdentifier = @"LoadingCell";
     searchResult.genre = [dictionary objectForKey:@"primaryGenreName"];
     return searchResult;
 }
- 
+
 - (SearchResult *)parseSoftware:(NSDictionary *)dictionary
 {
     SearchResult *searchResult = [[SearchResult alloc] init];
@@ -378,7 +378,7 @@ static NSString *const LoadingCellIdentifier = @"LoadingCell";
     searchResult.genre = [dictionary objectForKey:@"primaryGenreName"];
     return searchResult;
 }
- 
+
 - (SearchResult *)parseEBook:(NSDictionary *)dictionary
 {
     SearchResult *searchResult = [[SearchResult alloc] init];
