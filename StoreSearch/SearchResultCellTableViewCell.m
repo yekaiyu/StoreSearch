@@ -38,6 +38,12 @@
     
     self.backgroundView = backgroundImageView;
     
+    UIImage* selectedImage = [UIImage imageNamed:@"SelectedTableCellGradient"];
+    
+    UIImageView* selectedBackGroundImageView = [[UIImageView alloc] initWithImage:selectedImage];
+    
+    self.selectedBackgroundView = selectedBackGroundImageView;
+    
 }
 
 @end

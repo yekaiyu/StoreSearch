@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E724037B19E683A50054CFEF /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E724037919E683A50054CFEF /* LoadingCell.xib */; };
 		E7D83A3519D1861800F087A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83A3419D1861800F087A9 /* main.m */; };
 		E7D83A3819D1861800F087A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83A3719D1861800F087A9 /* AppDelegate.m */; };
 		E7D83A3A19D1861800F087A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D83A3919D1861800F087A9 /* Images.xcassets */; };
@@ -57,6 +58,8 @@
 		E7D83B7919D2B72D00F087A9 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D83B4F19D2B72D00F087A9 /* Default-Portrait~ipad.png */; };
 		E7D83B7A19D2B72D00F087A9 /* Icon.psd in Resources */ = {isa = PBXBuildFile; fileRef = E7D83B5119D2B72D00F087A9 /* Icon.psd */; };
 		E7D83B7D19D2BAB900F087A9 /* SearchResultCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B7C19D2BAB900F087A9 /* SearchResultCellTableViewCell.m */; };
+		E7D83B8119DA82D900F087A9 /* NothingFoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D83B7F19DA82D900F087A9 /* NothingFoundCell.m */; };
+		E7D83B8219DA82D900F087A9 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7D83B8019DA82D900F087A9 /* NothingFoundCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E724037919E683A50054CFEF /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadingCell.xib; path = "../../../../../Desktop/iOS 2/The iOS Apprentice Bundle/Chapter 4 - StoreSearch/Resources/Photoshop/LoadingCell.xib"; sourceTree = "<group>"; };
 		E7D83A2F19D1861800F087A9 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D83A3319D1861800F087A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7D83A3419D1861800F087A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -140,6 +144,9 @@
 		E7D83B5119D2B72D00F087A9 /* Icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icon.psd; sourceTree = "<group>"; };
 		E7D83B7B19D2BAB900F087A9 /* SearchResultCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCellTableViewCell.h; sourceTree = "<group>"; };
 		E7D83B7C19D2BAB900F087A9 /* SearchResultCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCellTableViewCell.m; sourceTree = "<group>"; };
+		E7D83B7E19DA82D900F087A9 /* NothingFoundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NothingFoundCell.h; path = "../../../../../Desktop/iOS 2/The iOS Apprentice Bundle/Chapter 4 - StoreSearch/Resources/Photoshop/NothingFoundCell.h"; sourceTree = "<group>"; };
+		E7D83B7F19DA82D900F087A9 /* NothingFoundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NothingFoundCell.m; path = "../../../../../Desktop/iOS 2/The iOS Apprentice Bundle/Chapter 4 - StoreSearch/Resources/Photoshop/NothingFoundCell.m"; sourceTree = "<group>"; };
+		E7D83B8019DA82D900F087A9 /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NothingFoundCell.xib; path = "../../../../../Desktop/iOS 2/The iOS Apprentice Bundle/Chapter 4 - StoreSearch/Resources/Photoshop/NothingFoundCell.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +202,12 @@
 				E7D83AAC19D2888400F087A9 /* SearchResult.m */,
 				E7D83B7B19D2BAB900F087A9 /* SearchResultCellTableViewCell.h */,
 				E7D83B7C19D2BAB900F087A9 /* SearchResultCellTableViewCell.m */,
+				E7D83B7E19DA82D900F087A9 /* NothingFoundCell.h */,
+				E7D83B7F19DA82D900F087A9 /* NothingFoundCell.m */,
+				E7D83B8019DA82D900F087A9 /* NothingFoundCell.xib */,
 				E7D83AA819D270BF00F087A9 /* SearchUIViewController.xib */,
 				E7D83B1419D2A7A500F087A9 /* SearchResultCell.xib */,
+				E724037919E683A50054CFEF /* LoadingCell.xib */,
 				E7D83A3919D1861800F087A9 /* Images.xcassets */,
 				E7D83A3219D1861800F087A9 /* Supporting Files */,
 			);
@@ -417,11 +428,13 @@
 				E7D83B7619D2B72D00F087A9 /* Default-Landscape@2x~ipad.png in Resources */,
 				E7D83B6219D2B72D00F087A9 /* Icon.png in Resources */,
 				E7D83B6F19D2B72D00F087A9 /* Placeholder@2x.png in Resources */,
+				E7D83B8219DA82D900F087A9 /* NothingFoundCell.xib in Resources */,
 				E7D83B7919D2B72D00F087A9 /* Default-Portrait~ipad.png in Resources */,
 				E7D83B7019D2B72D00F087A9 /* SelectedTableCellGradient.png in Resources */,
 				E7D83B7719D2B72D00F087A9 /* Default-Landscape~ipad.png in Resources */,
 				E7D83B7219D2B72D00F087A9 /* StoreButton@2x.png in Resources */,
 				E7D83B6A19D2B72D00F087A9 /* DetailPlaceholder@2x.png in Resources */,
+				E724037B19E683A50054CFEF /* LoadingCell.xib in Resources */,
 				E7D83B7319D2B72D00F087A9 /* TableCellGradient.png in Resources */,
 				E7D83B7A19D2B72D00F087A9 /* Icon.psd in Resources */,
 				E7D83B7419D2B72D00F087A9 /* Default.png in Resources */,
@@ -460,6 +473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D83B8119DA82D900F087A9 /* NothingFoundCell.m in Sources */,
 				E7D83B5519D2B72D00F087A9 /* AFImageRequestOperation.m in Sources */,
 				E7D83B5319D2B72D00F087A9 /* AFHTTPRequestOperation.m in Sources */,
 				E7D83B7D19D2BAB900F087A9 /* SearchResultCellTableViewCell.m in Sources */,
